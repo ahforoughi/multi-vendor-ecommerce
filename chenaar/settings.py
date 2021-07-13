@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-c%7tuhfys^o++rp-&m8&48orw#0-&qs_hh*16bb_6wsny00hj%'
-
+STRIPE_SECRET_KEY = 'sk_test_51JCgZELkMDMDRm7PCJrZqsUQi8eapwG2scrIT9GyiwnV7Kt7wpK0F0GHixdEDObWPytVwTy11eAu7uv0fQFHPilR00faiX4hJM'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -34,7 +34,8 @@ INSTALLED_APPS = [
 
     'shop', 
     'vendor',
-    'product'
+    'product',
+    'order',
 
 ]
 

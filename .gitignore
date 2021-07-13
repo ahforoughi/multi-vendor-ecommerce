@@ -14,3 +14,5 @@ build/
 tests/report/
 media
 log/
+chenaar/settings.py/
+db.sqlite3
