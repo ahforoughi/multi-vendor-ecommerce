@@ -30,3 +30,4 @@ social-auth-core==4.1.0
 sqlparse==0.4.1
 uritemplate==3.0.1
 urllib3==1.26.5
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
